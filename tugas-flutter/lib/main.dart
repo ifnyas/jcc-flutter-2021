@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'tugas13/login_screen.dart';
-import 'tugas13/home_screen.dart';
+import 'package:tugasflutter/tugas13/login_screen.dart';
+import 'package:tugasflutter/tugas13/home_screen.dart';
+import 'package:tugasflutter/tugas14/data_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const HomeScreen(),
+      home: const DataScreen(),
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           primarySwatch: Colors.green,
